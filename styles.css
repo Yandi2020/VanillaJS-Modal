@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background: url(01.jpeg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+header h2{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.sub-section{
+    position: absolute;
+    top: 78%;
+    left: 43%;
+}
+
+.sub-section h2{
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.sub-section .modal-btn{
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background: blueviolet;
+    border: none;
+    cursor: pointer;
+    margin-left: 20%;
+    outline: none;
+}
+
+.space{
+    width: 100%;
+    height: 100vh;
+}
+
+.modal-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal{
+    background: #fff;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal div{
+    margin: 5px auto;
+}
+
+.modal h2{
+    margin:15px auto;
+}
+
+.modal button{
+    margin:15px auto;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background:blueviolet;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.modal-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
